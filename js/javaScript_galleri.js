@@ -10,6 +10,7 @@ const options = {
     "x-apikey": key,
   },
 };
+
 let natureArray;
 let filter = "alle";
 
