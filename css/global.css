@@ -92,6 +92,7 @@ section {
   border: 5px solid var(--color2_4);
   border-radius: 25px;
   font-size: 1rem;
+  font-family: "Faustina", serif;
   padding: 10px;
 }
 
@@ -111,23 +112,34 @@ header nav {
 
 h1 {
   font-size: 2.5rem;
+  font-family: dunbar-low, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h2 {
   font-size: 2rem;
+  font-family: terfens, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h3 {
   font-size: 1.5rem;
+  font-family: terfens, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 p {
   font-size: 1rem;
+  font-family: "Faustina", serif;
   padding-bottom: var(--space-md);
 }
 
 footer {
   background-color: var(--color2_6);
+  padding: var(--space-xl);
 }
 
 /* Burgermenu start */
@@ -148,6 +160,7 @@ footer {
   align-items: flex-end;
   justify-content: center;
   padding: 20px;
+  list-style: none;
 
   transform: translateX(-100%);
   transition: transform 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97);
