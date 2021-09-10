@@ -96,6 +96,10 @@ section {
   padding: 10px;
 }
 
+.logo {
+  width: 10rem;
+}
+
 header {
   background-color: var(--color2_6);
   position: sticky;
