@@ -65,6 +65,8 @@ video {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-bottom: var(--space-md);
+  padding-top: var(--space-xl);
 }
 
 main {
@@ -82,20 +84,15 @@ section {
   padding: var(--space-lg);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-li {
-  list-style: none;
-}
-
 .link_knap,
 .knap {
   text-decoration: none;
   background-color: var(--color2_4);
+  list-style: none;
+  border: 5px solid var(--color2_4);
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 10px;
 }
 
 header {
@@ -126,6 +123,7 @@ h3 {
 
 p {
   font-size: 1rem;
+  padding-bottom: var(--space-md);
 }
 
 footer {
