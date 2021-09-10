@@ -1,6 +1,6 @@
 html {
   /* Primary */
-  --color1_1: #79A617;
+  --color1_1: #79a617;
   --color1_2: #000000;
 
   /* Secondary */
@@ -45,4 +45,28 @@ video {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+header {
+  background-color: #ebebeb;
+}
+
+h1 {
+  font-size: 2.5;
+}
+
+h2 {
+  font-size: 2;
+}
+
+h3 {
+  font-size: 1.5;
+}
+
+p {
+  font-size: 1;
+}
+
+footer {
+  background-color: #ebebeb;
 }
