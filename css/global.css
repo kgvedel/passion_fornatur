@@ -100,6 +100,16 @@ section {
   width: 10rem;
 }
 
+.so_me_icon {
+  display: flex;
+  gap: 10%;
+}
+
+.arrow_top {
+  display: flex;
+  justify-content: right;
+}
+
 header {
   background-color: var(--color2_6);
   position: sticky;
