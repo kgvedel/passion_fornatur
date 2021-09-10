@@ -1,3 +1,23 @@
+.fonts {
+  font-family: terfens, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: terfens, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  font-family: dunbar-low, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: dunbar-low, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+  font-family: "Faustina", serif;
+}
+
 html {
   /* Primary */
   --color1_1: #79a617;
