@@ -98,6 +98,7 @@ section {
 
 .logo {
   width: 10rem;
+  display: block;
 }
 
 .so_me_icon {
