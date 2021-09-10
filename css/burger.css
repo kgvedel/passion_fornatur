@@ -70,39 +70,32 @@ header nav {
   font-weight: 700;
   font-size: 1.7rem;
   display: block;
-  transition: transform 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97), opacity 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97);
+  transition: transform 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97),
+    opacity 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97);
 }
 
-#menu #try {
+#menu #galleri {
   transition-delay: 400ms;
 }
 
-#menu #to {
+#menu #kort {
   transition-delay: 450ms;
 }
 
-#menu #hover {
+#menu #om_os {
   transition-delay: 500ms;
 }
 
-#menu #me {
-  transition-delay: 550ms;
-}
-
-#menu.hide #try {
+#menu.hide #galleri {
   transition-delay: 0ms;
 }
 
-#menu.hide #to {
+#menu.hide #kort {
   transition-delay: 50ms;
 }
 
-#menu.hide #hover {
+#menu.hide #om_os {
   transition-delay: 100ms;
-}
-
-#menu.hide #me {
-  transition-delay: 150ms;
 }
 
 #menu.hide a {
