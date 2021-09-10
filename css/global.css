@@ -49,7 +49,7 @@ video {
 
 main {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 800px) 1fr;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
 
 main > section {
@@ -60,6 +60,36 @@ main > section {
 
 section {
   padding: var(--space-lg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.link_knap,
+.knap {
+  text-decoration: none;
+  background-color: var(--color2_4);
+}
+
+header {
+  background-color: var(--color2_6);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 h1 {
@@ -83,34 +113,6 @@ footer {
 }
 
 /* Burgermenu start */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-header {
-  background-color: var(--color2_6);
-  position: sticky;
-  top: 0;
-  left: 0;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
 
 /* #menu (Den Gule) */
 
