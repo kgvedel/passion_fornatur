@@ -1,0 +1,48 @@
+html {
+  /* Primary */
+  --color1_1: #79A617;
+  --color1_2: #000000;
+
+  /* Secondary */
+  --color2_1: #ffffff;
+  --color2_2: #506e0f;
+  --color2_3: #90b54f;
+  --color2_4: #c7f26b;
+  --color2_5: #b0f222;
+  --color2_6: #ebebeb;
+
+  /* Spacing */
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 6rem;
+
+  /* scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  margin: 0rem; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-wrap: break-word;
+  hyphens: auto;
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: var(--color2_1);
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
