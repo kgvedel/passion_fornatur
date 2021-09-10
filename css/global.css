@@ -98,7 +98,7 @@ section {
 
 .logo {
   width: 10rem;
-  display: block;
+  display: inline-block;
 }
 
 header {
