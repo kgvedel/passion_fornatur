@@ -134,6 +134,7 @@ h1 {
   font-family: dunbar-low, sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: var(--color2_1);
 }
 
 h2 {
@@ -239,7 +240,6 @@ aside .arrow_top {
 /* #menu (Den Gule) */
 
 #menu {
-  /* position: absolut gør elementets placerering relativt til den nærmeste parent som ikke har position: static (static er default på alle elementer). Her er den relativ ifht "header", da den er position: sticky.  */
   position: absolute;
 
   top: 0;
@@ -415,5 +415,29 @@ aside .arrow_top {
 
   100% {
     transform: translateY(0px) rotate(-45deg);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #burger_btn {
+    display: none;
+  }
+
+  #menu {
+    position: unset;
+    width: 21rem;
+    height: 5rem;
+    background-color: transparent;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  #menu.hide {
+    transform: translateX(0);
+  }
+
+  #menu.hide a {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
