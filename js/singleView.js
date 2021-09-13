@@ -56,7 +56,7 @@ function visNatureArray(natureArray) {
     if (number < 3) {
       let klon = temp.cloneNode(true).content;
       klon.querySelector(".navn").textContent = nature.navn;
-      klon.querySelector(".billede").src = "assets/img/" + nature.billednavn;
+      klon.querySelector(".billede").src = "asstes/img/" + nature.billednavn;
       klon.querySelector(".kategori").textContent = nature.kategori;
       klon.querySelector("article").addEventListener("click", () => {
         location.href = "single_view.html?id=" + nature._id;
