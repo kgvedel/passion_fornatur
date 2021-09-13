@@ -26,3 +26,12 @@
   font-family: "Faustina", serif;
   padding: 10px;
 }
+
+#galleri_article {
+  padding: 0;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  grid-column: 2/3;
+}

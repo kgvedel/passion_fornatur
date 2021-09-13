@@ -42,20 +42,18 @@ async function loadJSON() {
 }
 
 function visNatureArray() {
-  const container = document.querySelector("#data");
+  const container = document.querySelector("#galleri_article");
   const temp = document.querySelector("template");
   container.textContent = "";
 
   natureArray.forEach((nature) => {
     if (filter == nature.kategori || filter == "alle") {
       let klon = temp.cloneNode(true).content;
-      const makeHr = document.createElement("hr");
-      container.appendChild(makeHr);
+      // const makeHr = document.createElement("hr");
+      // klon.appendChild(makeHr);
       klon.querySelector(".navn").textContent = nature.navn;
       klon.querySelector(".billede").src = "asstes/img/" + nature.billednavn;
       klon.querySelector(".kategori").textContent = nature.kategori;
-      klon.querySelector(".langbeskrivelse").textContent =
-        nature.langbeskrivelse;
       klon.querySelector("article").addEventListener("click", () => {
         location.href = "single_view.html?id=" + nature._id;
       });
