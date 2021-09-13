@@ -66,8 +66,8 @@ iframe {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-top: var(--space-md);
   padding-bottom: var(--space-md);
-  padding-top: var(--space-xl);
 }
 
 main {
