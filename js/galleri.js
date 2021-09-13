@@ -50,7 +50,7 @@ function visNatureArray() {
     if (filter == nature.kategori || filter == "alle") {
       let klon = temp.cloneNode(true).content;
       klon.querySelector(".navn").textContent = nature.navn;
-      klon.querySelector(".billede").src = "assets/img/" + nature.billednavn;
+      klon.querySelector(".billede").src = "asstes/img/" + nature.billednavn;
       klon.querySelector(".kategori").textContent = nature.kategori;
       klon.querySelector(".langbeskrivelse").textContent =
         nature.langbeskrivelse;
