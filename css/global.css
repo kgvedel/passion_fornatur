@@ -108,16 +108,6 @@ header .logo img {
   padding: 1rem 2rem 0rem 0rem;
 }
 
-.so_me_icon {
-  display: flex;
-  gap: 10%;
-}
-
-.arrow_top {
-  display: flex;
-  justify-content: right;
-}
-
 header {
   background-color: var(--color2_6);
   position: sticky;
@@ -163,12 +153,44 @@ p {
 footer {
   background-color: var(--color2_6);
   /* padding: var(--space-xl); */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+footer section {
+  /* padding: 2rem 0rem 2rem 2rem; */
+  padding-left: var(--space-sm);
+  padding-right: var(--space-sm);
 }
 
 .logo_footer img {
-  width: 2rem;
+  width: 10rem;
 }
 
+.so_me_icon {
+  display: flex;
+  gap: 10%;
+}
+/* .arrow_top {
+  display: flex;
+  justify-content: right;
+  place-self: end;
+} */
+
+.arrow_top img {
+  padding: 0rem;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+
+  position: sticky;
+  bottom: 0;
+  padding: 0.8rem 1rem;
+  margin: 0;
+  gap: 1.25rem;
+}
 /* Burgermenu start */
 
 /* #menu (Den Gule) */
@@ -191,6 +213,7 @@ footer {
 
   transform: translateX(-100%);
   transition: transform 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97);
+  z-index: 1000;
 }
 
 #menu.hide {
