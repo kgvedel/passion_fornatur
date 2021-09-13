@@ -163,6 +163,10 @@ footer section {
   padding-right: var(--space-sm);
 }
 
+footer img {
+  padding: 0;
+}
+
 .logo_footer img {
   width: 10rem;
 }
@@ -171,14 +175,31 @@ footer section {
   display: flex;
   gap: 10%;
 }
-/* .arrow_top {
-  display: flex;
-  justify-content: right;
-  place-self: end;
-} */
 
-.arrow_top img {
-  padding: 0rem;
+.so_me_icon img {
+  width: 2rem;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.kontakt_footer img {
+  width: 2rem;
+}
+
+.kontakt_footer a {
+  color: var(--color1_2);
+}
+
+.telefon {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.mail {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: center;
 }
 
 aside {
@@ -191,6 +212,22 @@ aside {
   margin: 0;
   gap: 1.25rem;
 }
+
+/* .arrow_top {
+  display: flex;
+  justify-content: right;
+  place-self: end;
+} */
+
+aside .arrow_top img {
+  padding: 0rem;
+  width: 4rem;
+}
+
+aside .arrow_top {
+  padding: 0;
+}
+
 /* Burgermenu start */
 
 /* #menu (Den Gule) */
