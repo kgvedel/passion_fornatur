@@ -97,11 +97,15 @@ section {
   padding: 10px;
 }
 
-header .logo img {
+.logo {
   width: 10rem;
   display: inline-block;
   padding: 0;
   margin: 0;
+}
+
+header .logo img {
+  padding: 1rem 2rem 0rem 0rem;
 }
 
 .so_me_icon {
@@ -125,7 +129,8 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
+  padding: 0rem 1rem 0rem 1rem;
 }
 
 h1 {
@@ -157,7 +162,11 @@ p {
 
 footer {
   background-color: var(--color2_6);
-  padding: var(--space-xl);
+  /* padding: var(--space-xl); */
+}
+
+.logo_footer img {
+  width: 2rem;
 }
 
 /* Burgermenu start */
@@ -177,7 +186,7 @@ footer {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding: 20px;
+  padding: 1.2rem;
   list-style: none;
 
   transform: translateX(-100%);
