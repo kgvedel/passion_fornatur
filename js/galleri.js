@@ -49,6 +49,8 @@ function visNatureArray() {
   natureArray.forEach((nature) => {
     if (filter == nature.kategori || filter == "alle") {
       let klon = temp.cloneNode(true).content;
+      const makeHr = document.createElement("hr");
+      container.appendChild(makeHr);
       klon.querySelector(".navn").textContent = nature.navn;
       klon.querySelector(".billede").src = "asstes/img/" + nature.billednavn;
       klon.querySelector(".kategori").textContent = nature.kategori;

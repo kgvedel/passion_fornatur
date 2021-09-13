@@ -66,8 +66,8 @@ iframe {
   display: block;
   max-width: 100%;
   height: auto;
+  padding-top: var(--space-md);
   padding-bottom: var(--space-md);
-  padding-top: var(--space-xl);
 }
 
 main {
@@ -89,12 +89,18 @@ section {
 .knap {
   text-decoration: none;
   background-color: var(--color2_4);
+  color: var(--color1_2);
   list-style: none;
   border: 5px solid var(--color2_4);
   border-radius: 25px;
   font-size: 1rem;
   font-family: "Faustina", serif;
   padding: 10px;
+}
+
+.link_knap:hover,
+.knap:hover {
+  opacity: 0.5;
 }
 
 .logo {
