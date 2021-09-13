@@ -1,5 +1,57 @@
-@media (min-width: 720px) {
+#seven_section .col_right img {
+  height: auto;
+  width: 2rem;
+  grid-area: 1 / 1;
+  z-index: 10;
+  margin-top: 0.2rem;
+  margin-left: var(--space-xs);
+}
+
+form .link_knap {
+  margin-top: var(--space-xs);
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: var(--space-xxs);
+
+  width: 90%;
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.form-felt {
+  display: grid;
+}
+
+label {
+  width: 0;
+  height: 0;
+}
+
+input,
+textarea {
+  border-radius: var(--space-xs);
+  font-size: 1rem;
+  font-family: "Roboto slab";
+
+  padding-left: var(--space-xl);
+  grid-area: 1/1;
+}
+
+button {
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--color2_1);
+  background: var(--color1_2);
+  font-family: "Rubik";
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
   main {
-    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+    grid-template-columns: 1fr minmax(0, 1000px) 1fr;
   }
 }
