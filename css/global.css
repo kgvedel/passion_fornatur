@@ -98,6 +98,11 @@ section {
   padding: 10px;
 }
 
+.link_knap:hover,
+.knap:hover {
+  opacity: 0.5;
+}
+
 .logo {
   width: 10rem;
   display: inline-block;
