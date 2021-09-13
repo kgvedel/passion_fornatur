@@ -1,0 +1,15 @@
+@media (min-width: 720px) {
+  main {
+    grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+  }
+
+  .menu h2 {
+    font-size: 1.5rem;
+  }
+
+  .flere_forslag {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+}
