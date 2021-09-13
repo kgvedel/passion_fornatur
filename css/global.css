@@ -66,7 +66,8 @@ section {
 }
 
 .link_knap,
-.knap {
+.knap,
+header #menu a {
   text-decoration: none;
   background-color: var(--color2_4);
   color: var(--color1_2);
@@ -79,7 +80,8 @@ section {
 }
 
 .link_knap:hover,
-.knap:hover {
+.knap:hover,
+header #menu a:hover {
   opacity: 0.5;
 }
 
@@ -139,18 +141,19 @@ p {
 
 footer {
   background-color: var(--color2_6);
-  /* padding: var(--space-xl); */
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  justify-content: center;
 }
 
 footer section {
-  /* padding: 2rem 0rem 2rem 2rem; */
   padding-left: var(--space-sm);
   padding-right: var(--space-sm);
+  display: flex;
+  flex-direction: column;
 }
 
-footer img {
+footer img,
+footer p {
   padding: 0;
 }
 
@@ -399,6 +402,7 @@ aside .arrow_top {
 }
 
 @media screen and (min-width: 650px) {
+  /* menu start */
   #burger_btn {
     display: none;
   }
@@ -419,5 +423,17 @@ aside .arrow_top {
   #menu.hide a {
     transform: translateX(0);
     opacity: 1;
+  }
+  /* menu end */
+
+  footer section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+  }
+
+  .so_me_icon img {
+    width: 2rem;
+    padding: 0;
   }
 }
