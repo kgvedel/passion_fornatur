@@ -1,6 +1,6 @@
 @media (min-width: 720px) {
   main {
-    grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
   }
 
   .menu h2 {
