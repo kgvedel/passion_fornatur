@@ -22,3 +22,14 @@
 #third_section {
   background: var(--color2_3);
 }
+
+@media (min-width: 720px) {
+  #first_section h1 {
+    font-size: 5rem;
+  }
+
+  #forside_billed_galleri {
+    display: flex;
+    gap: 2rem;
+  }
+}
