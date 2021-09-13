@@ -5,3 +5,11 @@
 #five_section #data {
   padding: 0;
 }
+
+#five_section nav {
+  margin-bottom: 1rem;
+}
+
+.txt_kategori {
+  margin-bottom: 1rem;
+}
