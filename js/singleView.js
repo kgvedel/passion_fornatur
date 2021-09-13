@@ -37,7 +37,7 @@ async function loadJSONNatureArray() {
 
 function visNature(nature) {
   document.querySelector(".navn").textContent = nature.navn;
-  document.querySelector(".billede").src = "assets/img/" + nature.billednavn;
+  document.querySelector(".billede").src = "asstes/img/" + nature.billednavn;
   document.querySelector(".kategori").textContent = nature.kategori;
   document.querySelector(".langbeskrivelse").textContent =
     nature.langbeskrivelse;
