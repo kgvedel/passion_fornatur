@@ -89,6 +89,7 @@ section {
 .knap {
   text-decoration: none;
   background-color: var(--color2_4);
+  color: var(--color1_2);
   list-style: none;
   border: 5px solid var(--color2_4);
   border-radius: 25px;
