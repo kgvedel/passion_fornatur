@@ -38,7 +38,6 @@ body {
   line-height: 1.5;
   font-size: 16px;
   background-color: var(--color2_1);
-  
 }
 
 img,
@@ -85,7 +84,8 @@ header #menu a {
 #filter_menu button:hover,
 .link_knap:hover,
 .knap:hover,
-header #menu a:hover {
+header #menu a:hover,
+.arrow_top:hover {
   opacity: 0.5;
 }
 
@@ -105,6 +105,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 1000;
 }
 
 header nav {
@@ -120,7 +121,11 @@ h1 {
   font-family: dunbar-low, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: var(--color2_1);
+  color: var(--color1_2);
+  background: var(--color2_6);
+  border-radius: 9rem;
+  padding: 0rem 1.5rem 1.5rem 1.5rem;
+  opacity: 0.9;
 }
 
 h2 {
@@ -247,10 +252,10 @@ aside .arrow_top {
   justify-content: center;
   padding: 1.2rem;
   list-style: none;
+  gap: 1rem;
 
   transform: translateX(-100%);
   transition: transform 0.5s cubic-bezier(0.83, 0.04, 0.1, 0.97);
-  z-index: 1000;
 }
 
 #menu.hide {
