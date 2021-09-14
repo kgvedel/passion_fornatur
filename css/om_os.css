@@ -16,7 +16,7 @@ form {
   display: grid;
   gap: var(--space-xxs);
 
-  width: 90%;
+  width: 100%;
   margin-top: var(--space-sm);
   margin-bottom: var(--space-sm);
 }
@@ -49,6 +49,7 @@ button {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 
 @media (min-width: 600px) {
   main {
