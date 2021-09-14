@@ -62,7 +62,7 @@ main > section {
 }
 
 section {
-  padding: var(--space-lg);
+  margin-bottom: var(--space-xxl);
 }
 
 .link_knap,
@@ -140,6 +140,10 @@ p {
   font-size: 1rem;
   font-family: "Faustina", serif;
   padding-bottom: var(--space-md);
+}
+
+hr {
+  border-top: 1px solid var(--color1_2);
 }
 
 footer {
@@ -433,6 +437,7 @@ aside .arrow_top {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--space-md);
+    margin: var(--space-xl);
   }
 
   .so_me_icon img {
