@@ -124,6 +124,7 @@ h2 {
   font-family: terfens, sans-serif;
   font-weight: 700;
   font-style: normal;
+  margin-bottom: var(--space-xs);
 }
 
 h3 {
@@ -131,6 +132,7 @@ h3 {
   font-family: terfens, sans-serif;
   font-weight: 700;
   font-style: normal;
+  margin-bottom: var(--space-xs);
 }
 
 p {
