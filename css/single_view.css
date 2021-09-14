@@ -6,7 +6,7 @@
 
 .single_info img,
 .mere_salg img {
-  width: 100%;
+  width: 250%;
   max-height: 60%;
   object-fit: cover;
 }
@@ -19,15 +19,26 @@
   }
 
   .single_info img {
-    max-width: 50%;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
     padding: 0;
+
   }
 
   .single_info hr {
     border: 0;
     border-top: 1px solid var(--color1_2);
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
+}
+
+hr{
+  margin-top: 3rem;
+}
+
+.flere_forslag h2{
+  margin-top: 2rem;
 }
 
 @media (min-width: 720px) {
@@ -36,12 +47,18 @@
   }
 
   .single_info h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .flere_forslag {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
+  }
+
+  .flere_forslag img{
+    width: 100%;
+    height: 70%;
+  
   }
 }
