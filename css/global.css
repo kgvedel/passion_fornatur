@@ -20,8 +20,8 @@ html {
   --space-xl: 3rem;
   --space-xxl: 6rem;
 
-  /* scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+  /* scroll-padding-top: 5rem;
   margin: 0rem; */
 }
 
