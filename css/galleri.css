@@ -27,6 +27,11 @@
   font-size: 1rem;
   font-family: "Faustina", serif;
   padding: 10px;
+  cursor: pointer;
+}
+
+#five_section{
+  margin-top: 3.5rem;
 }
 
 #galleri_article {

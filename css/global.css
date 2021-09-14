@@ -38,6 +38,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   background-color: var(--color2_1);
+  
 }
 
 img,
@@ -52,13 +53,14 @@ iframe {
 
 main {
   display: grid;
-  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  grid-template-columns: 1fr minmax(0, 1000px) 1fr;
 }
 
 main > section {
   grid-column: 2/3;
   padding-left: var(--space-sm);
   padding-right: var(--space-sm);
+  margin-top: 3.5rem;
 }
 
 section {
@@ -80,6 +82,7 @@ header #menu a {
   cursor: pointer;
 }
 
+#filter_menu button:hover,
 .link_knap:hover,
 .knap:hover,
 header #menu a:hover {
