@@ -57,7 +57,7 @@
             og Emilie. Vi fandt hurtigt ud af, at naturen er vigtig for os alle,
             og derfor var det oplagt at starte en forening på baggrund af dette.
           </p>
-          <a href="" class="link_knap">Kortet</a>
+          <a href="kort.html" class="link_knap">Kortet</a>
         </article>
       </section>
 
@@ -68,7 +68,7 @@
           </div>
 
           <div class="col_right">
-            <form action="popup" name="kontakt" netlify>
+            <form action="" method="get" target="_self" name="kontakt" netlify>
               <div class="form-felt">
                 <img
                   src="asstes/graphic/icons/profil.svg"
@@ -111,20 +111,20 @@
                   id="meddelelse"
                   rows="5"
                 ></textarea>
-
-                <button class="knap">Indsend</button>
-                <!-- <button class="knap_sumit" type="sumit">Indsend</button> -->
-                <!-- <a class="link_knap">Indsend</a> -->
+              </div>
+              <div>
+                <input class="knap" type="submit" value="Indsend" />
+                <!-- <button class="knap">Indsend</button> -->
               </div>
             </form>
           </div>
         </article>
       </section>
       <section id="popup">
-        <button>X</button>
         <article>
+          <button class="knap">Luk</button>
           <h2>Tak for din besked</h2>
-          <p>vi svare inden for 48 timer</p>
+          <p>Vi svare i løbet af, 2 hverdage</p>
         </article>
       </section>
     </main>

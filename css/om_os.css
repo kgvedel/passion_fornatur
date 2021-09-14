@@ -57,38 +57,47 @@ button {
   background-color: #00000099;
   position: fixed;
   top: 0;
-  padding: 2rem;
   padding: 2% 10% 0 10%;
   overflow: scroll;
   z-index: 1001;
+  margin: 0;
 }
 
 #popup article {
   background-color: white;
   display: grid;
   place-items: center;
+  border-radius: 2rem;
+  margin-top: 5rem;
 }
-
-#popup img {
-  max-width: 55%;
-  border-radius: 5px;
-  outline: 3px solid papayawhip;
-  margin-bottom: 0.5rem;
-}
-
+/* 
 #popup p {
   margin-bottom: 0.2rem;
-}
+} */
 
 #popup button:first-child {
   font-size: 1.5rem;
-  position: absolute;
+  display: flex;
+  /* position: absolute;
   top: 3vw;
-  left: 11vw;
+  left: 11vw; */
+}
+
+.knap {
+  margin-top: 1rem;
 }
 
 @media (min-width: 600px) {
   main {
     grid-template-columns: 1fr minmax(0, 1000px) 1fr;
+  }
+
+  .col_right {
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    width: 50%;
   }
 }
