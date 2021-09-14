@@ -85,7 +85,8 @@ header #menu a {
 .link_knap:hover,
 .knap:hover,
 header #menu a:hover,
-.arrow_top:hover {
+.arrow_top:hover,
+.so_me_icon a:hover {
   opacity: 0.5;
 }
 
