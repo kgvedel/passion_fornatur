@@ -167,6 +167,7 @@ footer section {
   padding-right: var(--space-sm);
   display: flex;
   flex-direction: column;
+  margin: var(--space-xl);
 }
 
 footer img,
@@ -229,7 +230,6 @@ aside {
 aside .arrow_top img {
   padding: 0rem;
   width: 4rem;
-  
 }
 
 aside .arrow_top {
@@ -449,7 +449,6 @@ aside .arrow_top {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--space-md);
-    margin: var(--space-xl);
   }
 
   .so_me_icon img {

@@ -68,7 +68,7 @@ function visNatureArray(natureArray) {
 }
 
 // document.querySelector("button").addEventListener("click", () => {
-//   location.href = "bistro_babushka.html?id=";
+//   location.href = "index.html?id=";
 // });
 
 document.querySelector("button").addEventListener("click", () => {
