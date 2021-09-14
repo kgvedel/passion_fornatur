@@ -15,7 +15,8 @@ const options = {
 };
 
 let natureArray;
-let filter = kat;
+let filter = "alle";
+// let filter = kat;
 
 function start() {
   const filterKnapper = document.querySelectorAll("#filter_menu button");
@@ -34,7 +35,7 @@ function filtrerKategori() {
 
   const txtKategori = document.querySelector(".txt_kategori");
   console.log(this);
-  txtKategori.textContent =  this.textContent;
+  txtKategori.textContent = this.textContent;
 }
 
 async function loadJSON() {
