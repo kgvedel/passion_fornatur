@@ -141,6 +141,10 @@ p {
   padding-bottom: var(--space-md);
 }
 
+hr {
+  border-top: 1px solid var(--color1_2);
+}
+
 footer {
   background-color: var(--color2_6);
   display: flex;
