@@ -148,6 +148,7 @@ p {
   font-size: 1rem;
   font-family: "Faustina", serif;
   padding-bottom: var(--space-md);
+  line-height: 1.5;
 }
 
 hr {
