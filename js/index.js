@@ -7,15 +7,18 @@ let retter;
 let filter = "alle";
 
 function start() {
-  //   console.log("start");
-  document
-    .querySelector("third_section a")
-    .addEventListener("click", () => visKategori());
-}
-
-function visKategori() {
-  console.log();
-  document.querySelector(".videre").addEventListener("click", () => {
+  console.log("start");
+  document.querySelector("third_section a").addEventListener("click", () => {
     location.href = "single_view.html?kategori=" + "landskab";
   });
+  // document
+  // .querySelector("third_section a")
+  // .addEventListener("click", () => visKategori());
 }
+
+// function visKategori() {
+//   console.log();
+//   document.querySelector("").addEventListener("click", () => {
+//     location.href = "single_view.html?kategori=" + "landskab";
+//   });
+// }
