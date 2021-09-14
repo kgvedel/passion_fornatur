@@ -21,6 +21,8 @@
 
 #third_section {
   background: var(--color2_3);
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xxl);
 }
 
 @media (min-width: 720px) {
