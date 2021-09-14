@@ -20,8 +20,8 @@ html {
   --space-xl: 3rem;
   --space-xxl: 6rem;
 
-  /* scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+  /* scroll-padding-top: 5rem;
   margin: 0rem; */
 }
 
@@ -85,7 +85,8 @@ header #menu a {
 .link_knap:hover,
 .knap:hover,
 header #menu a:hover,
-.arrow_top:hover {
+.arrow_top:hover,
+.so_me_icon a:hover {
   opacity: 0.5;
 }
 
@@ -148,6 +149,7 @@ p {
   font-size: 1rem;
   font-family: "Faustina", serif;
   padding-bottom: var(--space-md);
+  line-height: 1.5;
 }
 
 hr {
