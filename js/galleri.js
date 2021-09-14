@@ -3,6 +3,9 @@
 //Kontroller om DOM´en er loaded
 window.addEventListener("DOMContentLoaded", start);
 
+const urlParams = new URLSearchParams(window.location.search);
+const kat = urlParams.get("kategori");
+
 const url = "https://fornature-c085.restdb.io/rest/nature";
 const key = "6139f60943cedb6d1f97eeed";
 const options = {
@@ -12,7 +15,7 @@ const options = {
 };
 
 let natureArray;
-let filter = "alle";
+let filter = kat;
 
 function start() {
   const filterKnapper = document.querySelectorAll("#filter_menu button");
