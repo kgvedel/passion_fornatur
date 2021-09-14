@@ -62,7 +62,7 @@ main > section {
 }
 
 section {
-  padding: var(--space-lg);
+  margin-bottom: var(--space-xxl);
 }
 
 .link_knap,
@@ -436,6 +436,7 @@ aside .arrow_top {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--space-md);
+    margin: var(--space-xl);
   }
 
   .so_me_icon img {
