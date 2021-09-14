@@ -50,6 +50,42 @@ button {
   cursor: pointer;
 }
 
+#popup {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000099;
+  position: fixed;
+  top: 0;
+  padding: 2rem;
+  padding: 2% 10% 0 10%;
+  overflow: scroll;
+  z-index: 1001;
+}
+
+#popup article {
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+#popup img {
+  max-width: 55%;
+  border-radius: 5px;
+  outline: 3px solid papayawhip;
+  margin-bottom: 0.5rem;
+}
+
+#popup p {
+  margin-bottom: 0.2rem;
+}
+
+#popup button:first-child {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 3vw;
+  left: 11vw;
+}
 
 @media (min-width: 600px) {
   main {
