@@ -77,6 +77,7 @@ header #menu a {
   font-size: 1rem;
   font-family: "Faustina", serif;
   padding: 10px;
+  cursor: pointer;
 }
 
 .link_knap:hover,
