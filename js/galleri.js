@@ -31,7 +31,7 @@ function filtrerKategori() {
 
   const txtKategori = document.querySelector(".txt_kategori");
   console.log(this);
-  txtKategori.textContent = "Flitrer: " + this.textContent;
+  txtKategori.textContent =  this.textContent;
 }
 
 async function loadJSON() {
