@@ -3,8 +3,8 @@
 //Kontroller om DOM´en er loaded, og henviser til start function
 document.addEventListener("DOMContentLoaded", start);
 
-//start functionen starter
 function start() {
+  //Udskriver start i consolen
   console.log("start");
   //Peger på knappen i form, som aktiverer functionen klikIndsend, hvis der klikkes på knappen i form.
   document
@@ -12,7 +12,7 @@ function start() {
     .addEventListener("click", () => klikPopup());
 }
 
-//denne function kan vise popup´en
+//Når der klikes vises der et popup vidnue.
 function klikPopup() {
   console.log("klikPopup");
   const popup = document.querySelector("#popup");
