@@ -367,21 +367,21 @@ aside .arrow_top {
   animation-name: kf_stroke_bottom;
 }
 
-/* brugermenu keyframes */
-
+/* animation til brugermenu keyframes */
 @keyframes kf_stroke_center {
+  /* animation på midter linjen */
   0% {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* linjen er lodret */
     animation-timing-function: cubic-bezier(0.83, 0.04, 0.1, 0.97);
   }
 
   50% {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* linjen er lodret */
     animation-timing-function: cubic-bezier(0.83, 0.04, 0.1, 0.97);
   }
 
   100% {
-    transform: rotate(45deg);
+    transform: rotate(45deg); /* linjen dejer 45 grader */
   }
 }
 
