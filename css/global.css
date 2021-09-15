@@ -61,9 +61,9 @@ main > section {
   margin-top: 3.5rem;
 }
 
-section {
+/* section {
   margin-bottom: var(--space-xxl);
-}
+} */
 
 .link_knap,
 .knap,
