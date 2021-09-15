@@ -58,11 +58,13 @@
         <a href="index.html" class="logo"
           ><img src="asstes/graphic/logo/logo.svg" alt="logo"
         /></a>
+        <!-- Bruger menu der vises på mobil -->
         <ul id="menu" class="hide">
           <li><a href="galleri.html?kategori=alle" id="galleri">Galleri</a></li>
           <li><a href="kort.html" id="kort">Kort</a></li>
           <li><a href="om_os.html" id="om_os">Om os</a></li>
         </ul>
+        <!-- her er vores bruger button, som består af 3 linjer, der kun vises på mobil -->
         <div id="burger_btn">
           <div class="stroke top"></div>
           <div class="stroke center"></div>
@@ -71,6 +73,7 @@
       </nav>
     </header>
 
+    <!-- Alt hovedindhold på index siden -->
     <main>
       <section id="first_section">
         <article class="section_wrapper">
@@ -101,6 +104,7 @@
           <div id="forside_billed_galleri">
             <article id="forside_landskab">
               <img src="asstes/img/klitm.webp" alt="klitm" />
+              <!-- Her får <a> tag en data attribut med, som betyder, når man kilkker, kommer den med på næste side -->
               <a href="galleri.html?kategori=landskab" class="link_knap"
                 >Landskab</a
               >
@@ -127,6 +131,7 @@
             interessante steder i naturen. Klik ind på kortet og lad dig blive
             inspireret.
           </p>
+          <!-- google maps kortet -->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d936.4185323664414!2d12.573325737447387!3d55.69913788876282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps!5e1!3m2!1sda!2sdk!4v1631522232992!5m2!1sda!2sdk"
             width="100%"

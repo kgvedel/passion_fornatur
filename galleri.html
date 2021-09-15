@@ -77,6 +77,7 @@
           <h2>Galleri</h2>
           <nav id="filter_menu">
             <ul>
+              <!-- her får hver knap en data attribut, med deres ejen værdi -->
               <button data-kategori="alle" class="valgt">Vis alle</button>
               <button data-kategori="landskab">Landskab</button>
               <button data-kategori="dyr">Dyr</button>
@@ -85,6 +86,7 @@
           </nav>
           <h3 class="txt_kategori">Vis alle</h3>
           <section id="galleri_section">
+            <!-- dette er kassen, hvor alt den generalt data vil komme i -->
             <article id="galleri_article"></article>
           </section>
         </article>
@@ -134,6 +136,7 @@
       </section>
     </footer>
 
+    <!-- indholdet af <template> tag er skabelonen for hver enkelt objekt -->
     <template>
       <article class="">
         <hr />
