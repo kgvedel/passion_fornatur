@@ -8,7 +8,7 @@ let filter = "alle";
 
 function start() {
   console.log("start");
-  document.querySelector("third_section a").addEventListener("click", () => {
+  document.querySelector("#third_section a").addEventListener("click", () => {
     location.href = "single_view.html?kategori=" + "landskab";
   });
   // document
