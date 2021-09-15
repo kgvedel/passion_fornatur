@@ -1,5 +1,5 @@
 html {
-  /* laver variabler for farvepaletten og spaceing */
+  /* Laver variabler for farvepaletten og spacing */
   /* Primary */
   --color1_1: #79a617;
   --color1_2: #000000;
@@ -27,7 +27,7 @@ html {
 }
 
 * {
-  /* tager fat i alle elementer og sætte alt til nul */
+  /* Tager fat i alle elementer og sætter alt til nul */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  /* får tekst til at opfører sig mere respontivt */
+  /* Får tekst til at opføre sig mere responsivt */
   overflow-wrap: break-word;
   hyphens: auto;
   line-height: 1.5;
@@ -58,7 +58,7 @@ main {
 }
 
 main > section {
-  /* placerer alle sectioner i midten */
+  /* Placerer alle sectioner i midten */
   grid-column: 2/3;
   padding-left: var(--space-sm);
   padding-right: var(--space-sm);
@@ -107,7 +107,7 @@ hr {
 .link_knap,
 .knap,
 header #menu a {
-  /* global styling af alle knapper */
+  /* Global styling af alle knapper */
   text-decoration: none;
   background-color: var(--color2_4);
   color: var(--color1_2);
@@ -127,11 +127,11 @@ header #menu a:hover,
 .arrow_top:hover,
 .so_me_icon a:hover,
 .logo:hover {
-  /* hover effekt på ting man kan klikke på, undtagen billeder */
+  /* Hover effekt på ting, man kan klikke på, undtagen billeder */
   opacity: 0.5;
 }
 
-/* menu start */
+/* Menu start */
 header {
   background-color: var(--color2_6);
   position: sticky;
@@ -158,9 +158,9 @@ header nav {
 header .logo img {
   padding: 1rem 2rem 0rem 0rem;
 }
-/* menu end */
+/* Menu slut */
 
-/* footer start */
+/* Footer start */
 footer {
   background-color: var(--color2_6);
   display: flex;
@@ -214,7 +214,7 @@ footer p {
   gap: var(--space-lg);
   align-items: center;
 }
-/* footer start */
+/* Footer slut */
 
 aside {
   display: flex;
@@ -237,7 +237,7 @@ aside .arrow_top {
   margin: 0;
 }
 
-/* burgermenu start */
+/* Burgermenu start */
 /* liste menu (#menu) */
 #menu {
   position: absolute;
@@ -305,7 +305,7 @@ aside .arrow_top {
   opacity: 0;
 }
 
-/* burgermenu knap (#burger_btn) */
+/* Burgermenu knap (#burger_btn) */
 
 #burger_btn {
   width: 40px;
@@ -330,7 +330,7 @@ aside .arrow_top {
   transform: translateY(10px);
 }
 
-/* brugermenu knap (open og hide) */
+/* burgermenu knap (open og hide) */
 
 #burger_btn.open .stroke {
   animation-duration: 1s;
@@ -367,7 +367,7 @@ aside .arrow_top {
   animation-name: kf_stroke_bottom;
 }
 
-/* animation til brugermenu keyframes */
+/* Animation til burgermenu */
 @keyframes kf_stroke_center {
   /* animation på midter linjen */
   0% {
@@ -416,10 +416,10 @@ aside .arrow_top {
     transform: translateY(0px) rotate(-45deg);
   }
 }
-/* burgermenu slut */
+/* Burgermenu slut */
 
 @media screen and (min-width: 650px) {
-  /* menu start */
+  /* Menu start */
   #menu {
     position: unset;
     width: 21rem;
@@ -441,9 +441,9 @@ aside .arrow_top {
     transform: translateX(0);
     opacity: 1;
   }
-  /* menu end */
+  /* Menu slut */
 
-  /* footer start */
+  /* Footer start */
   footer section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -454,5 +454,5 @@ aside .arrow_top {
     width: 2rem;
     padding: 0;
   }
-  /* footer end */
+  /* Footer end */
 }
