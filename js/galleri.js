@@ -15,8 +15,8 @@ const options = {
 };
 
 let natureArray;
-let filter = "alle";
-// let filter = kat;
+// let filter = "alle";
+let filter = kat;
 
 function start() {
   const filterKnapper = document.querySelectorAll("#filter_menu button");
