@@ -11,6 +11,14 @@
   object-fit: cover;
 }
 
+hr {
+  margin-top: 3rem;
+}
+
+.flere_forslag h2 {
+  margin-top: 2rem;
+}
+
 @media screen and (min-width: 650px) {
   .single_info {
     display: flex;
@@ -23,7 +31,6 @@
     object-fit: cover;
     height: auto;
     padding: 0;
-
   }
 
   .single_info hr {
@@ -31,14 +38,6 @@
     border-top: 1px solid var(--color1_2);
     margin-top: 2rem;
   }
-}
-
-hr{
-  margin-top: 3rem;
-}
-
-.flere_forslag h2{
-  margin-top: 2rem;
 }
 
 @media (min-width: 720px) {
@@ -56,9 +55,8 @@ hr{
     gap: 30px;
   }
 
-  .flere_forslag img{
+  .flere_forslag img {
     width: 100%;
     height: 70%;
-  
   }
 }

@@ -1,17 +1,3 @@
-#seven_section .col_right img {
-  height: auto;
-  width: 2rem;
-  grid-area: 1 / 1;
-  z-index: 10;
-  margin-top: 0.2rem;
-  margin-left: var(--space-xs);
-}
-
-form .link_knap {
-  margin-top: var(--space-xs);
-  text-align: center;
-}
-
 form {
   display: grid;
   gap: var(--space-xxs);
@@ -19,6 +5,11 @@ form {
   width: 100%;
   margin-top: var(--space-sm);
   margin-bottom: var(--space-sm);
+}
+
+form .link_knap {
+  margin-top: var(--space-xs);
+  text-align: center;
 }
 
 .form-felt {
@@ -40,7 +31,7 @@ textarea {
   grid-area: 1/1;
 }
 
-button {
+#seven_section button {
   border: none;
   border-radius: 0.5rem;
   color: var(--color2_1);
@@ -48,6 +39,15 @@ button {
   font-family: "Rubik";
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+#seven_section .col_right img {
+  height: auto;
+  width: 2rem;
+  grid-area: 1 / 1;
+  z-index: 10;
+  margin-top: 0.2rem;
+  margin-left: var(--space-xs);
 }
 
 #popup {
@@ -70,17 +70,10 @@ button {
   border-radius: 2rem;
   margin-top: 5rem;
 }
-/* 
-#popup p {
-  margin-bottom: 0.2rem;
-} */
 
 #popup button:first-child {
   font-size: 1.5rem;
   display: flex;
-  /* position: absolute;
-  top: 3vw;
-  left: 11vw; */
 }
 
 .knap {

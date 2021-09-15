@@ -1,4 +1,5 @@
 html {
+  /* laver variabler for farvepaletten og spaceing */
   /* Primary */
   --color1_1: #79a617;
   --color1_2: #000000;
@@ -26,6 +27,7 @@ html {
 }
 
 * {
+  /* tager fat i alle elementer og sætte alt til nul */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -33,6 +35,7 @@ html {
 }
 
 body {
+  /* får tekst til at opfører sig mere respontivt */
   overflow-wrap: break-word;
   hyphens: auto;
   line-height: 1.5;
@@ -55,65 +58,11 @@ main {
 }
 
 main > section {
+  /* placerer alle sectioner i midten */
   grid-column: 2/3;
   padding-left: var(--space-sm);
   padding-right: var(--space-sm);
   margin-top: 3.5rem;
-}
-
-/* section {
-  margin-bottom: var(--space-xxl);
-} */
-
-.link_knap,
-.knap,
-header #menu a {
-  text-decoration: none;
-  background-color: var(--color2_4);
-  color: var(--color1_2);
-  list-style: none;
-  border: 5px solid var(--color2_4);
-  border-radius: 25px;
-  font-size: 1rem;
-  font-family: "Faustina", serif;
-  padding: 10px;
-  cursor: pointer;
-}
-
-#filter_menu button:hover,
-.link_knap:hover,
-.knap:hover,
-header #menu a:hover,
-.arrow_top:hover,
-.so_me_icon a:hover {
-  opacity: 0.5;
-}
-
-.logo {
-  width: 10rem;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-
-header .logo img {
-  padding: 1rem 2rem 0rem 0rem;
-}
-
-header {
-  background-color: var(--color2_6);
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 10px; */
-  padding: 0rem 1rem 0rem 1rem;
 }
 
 h1 {
@@ -155,6 +104,63 @@ hr {
   border-top: 1px solid var(--color1_2);
 }
 
+.link_knap,
+.knap,
+header #menu a {
+  /* global styling af alle knapper */
+  text-decoration: none;
+  background-color: var(--color2_4);
+  color: var(--color1_2);
+  list-style: none;
+  border: 5px solid var(--color2_4);
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: "Faustina", serif;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#filter_menu button:hover,
+.link_knap:hover,
+.knap:hover,
+header #menu a:hover,
+.arrow_top:hover,
+.so_me_icon a:hover,
+.logo:hover {
+  /* hover effekt på ting man kan klikke på, undtagen billeder */
+  opacity: 0.5;
+}
+
+/* menu start */
+header {
+  background-color: var(--color2_6);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.logo {
+  width: 10rem;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+header .logo img {
+  padding: 1rem 2rem 0rem 0rem;
+}
+/* menu end */
+
+/* footer start */
 footer {
   background-color: var(--color2_6);
   display: flex;
@@ -208,6 +214,7 @@ footer p {
   gap: var(--space-lg);
   align-items: center;
 }
+/* footer start */
 
 aside {
   display: flex;
@@ -220,12 +227,6 @@ aside {
   gap: 1.25rem;
 }
 
-/* .arrow_top {
-  display: flex;
-  justify-content: right;
-  place-self: end;
-} */
-
 aside .arrow_top img {
   padding: 0rem;
   width: 4rem;
@@ -236,13 +237,11 @@ aside .arrow_top {
   margin: 0;
 }
 
-/* Burgermenu start */
+/* burgermenu start */
 
-/* #menu (Den Gule) */
-
+/* liste menu (#menu) */
 #menu {
   position: absolute;
-
   top: 0;
   left: 0;
   width: 50vw;
@@ -307,7 +306,7 @@ aside .arrow_top {
   opacity: 0;
 }
 
-/* #burger_btn (Den blå) */
+/* burgermenu knap (#burger_btn) */
 
 #burger_btn {
   width: 40px;
@@ -332,7 +331,7 @@ aside .arrow_top {
   transform: translateY(10px);
 }
 
-/* #burger_btn OPEN / Hide*/
+/* brugermenu knap (open og hide) */
 
 #burger_btn.open .stroke {
   animation-duration: 1s;
@@ -369,7 +368,7 @@ aside .arrow_top {
   animation-name: kf_stroke_bottom;
 }
 
-/* Keyframes */
+/* brugermenu keyframes */
 
 @keyframes kf_stroke_center {
   0% {
@@ -418,13 +417,10 @@ aside .arrow_top {
     transform: translateY(0px) rotate(-45deg);
   }
 }
+/* burgermenu slut */
 
 @media screen and (min-width: 650px) {
   /* menu start */
-  #burger_btn {
-    display: none;
-  }
-
   #menu {
     position: unset;
     width: 21rem;
@@ -432,6 +428,10 @@ aside .arrow_top {
     background-color: transparent;
     flex-direction: row;
     gap: 2rem;
+  }
+
+  #burger_btn {
+    display: none;
   }
 
   #menu.hide {
@@ -444,6 +444,7 @@ aside .arrow_top {
   }
   /* menu end */
 
+  /* footer start */
   footer section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -454,4 +455,5 @@ aside .arrow_top {
     width: 2rem;
     padding: 0;
   }
+  /* footer end */
 }

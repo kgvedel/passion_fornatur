@@ -1,3 +1,9 @@
+#first_section {
+  grid-column: 1/4;
+  padding: 0;
+  margin: 0;
+}
+
 #first_section .section_wrapper {
   display: grid;
   /* grid-template-columns: repeat(10, 1fr);
@@ -8,12 +14,6 @@
   margin: 0rem;
   background-size: cover;
   background-position: 83% 10%;
-}
-
-#first_section {
-  grid-column: 1/4;
-  padding: 0;
-  margin: 0;
 }
 
 #first_section h1 {
@@ -32,7 +32,7 @@
   object-fit: cover;
 }
 
-iframe {
+#fourth_section iframe {
   display: block;
   max-width: 100%;
   height: auto;
@@ -45,7 +45,7 @@ iframe {
     font-size: 5rem;
   }
 
-  #forside_billed_galleri {
+  #third_section #forside_billed_galleri {
     display: flex;
     gap: 2rem;
   }
