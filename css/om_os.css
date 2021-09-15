@@ -20,7 +20,7 @@ label {
   width: 0;
   height: 0;
 }
-
+/* Til kontaktformular */
 input,
 textarea {
   border-radius: var(--space-xs);
