@@ -1,6 +1,12 @@
+img {
+  width: 100%;
+  max-height: 60%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
 #filter_menu .valgt {
   background-color: var(--color2_4);
-
   border: solid;
   color: black;
 }
@@ -35,6 +41,7 @@
 }
 
 #galleri_article {
+  /* array bliver stylet her, og skal min være 250px */
   margin: auto;
   padding: 0;
   padding-top: 2rem;
@@ -42,11 +49,4 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
   grid-column: 2/3;
-}
-
-img {
-  width: 100%;
-  max-height: 60%;
-  object-fit: cover;
-  cursor: pointer;
 }
