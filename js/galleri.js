@@ -33,9 +33,9 @@ function filtrerKategori() {
 
   visNatureArray();
 
-  const txtKategori = document.querySelector(".txt_kategori");
-  console.log(this);
-  txtKategori.textContent = this.textContent;
+  // const txtKategori = document.querySelector(".txt_kategori");
+  // console.log(this);
+  // txtKategori.textContent = this.textContent;
 }
 
 async function loadJSON() {
@@ -53,12 +53,13 @@ function visNatureArray() {
   natureArray.forEach((nature) => {
     if (filter == nature.kategori || filter == "alle") {
       let klon = temp.cloneNode(true).content;
-      // const makeHr = document.createElement("hr");
-      // klon.appendChild(makeHr);
       klon.querySelector(".navn").textContent = nature.navn;
       klon.querySelector(".billede").src = "asstes/img/" + nature.billednavn;
-      klon.querySelector(".kategori").textContent = nature.kategori;
-      klon.querySelector("article").addEventListener("click", () => {
+      // klon.querySelector(".kategori").textContent = nature.kategori;
+      klon.querySelector("article img").addEventListener("click", () => {
+        location.href = "single_view.html?id=" + nature._id;
+      });
+      klon.querySelector("article #klik_info").addEventListener("click", () => {
         location.href = "single_view.html?id=" + nature._id;
       });
       container.appendChild(klon);
