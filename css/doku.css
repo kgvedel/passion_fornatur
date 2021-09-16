@@ -1,0 +1,42 @@
+#doku_section li {
+  list-style: none;
+}
+
+#doku_section a {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#doku_section hr {
+  margin-top: var(--space-sm);
+}
+
+#doku_section h2 {
+  text-align: center;
+}
+
+#doku_section h3 {
+  text-align: center;
+  margin-top: var(--space-lg);
+}
+
+@media screen and (min-width: 650px) {
+  #doku_section .knap {
+    margin-top: 0;
+  }
+
+  #doku_section ul {
+    display: flex;
+    gap: var(--space-sm);
+    flex-direction: column;
+  }
+
+  #doku_section h2 {
+    text-align: start;
+  }
+
+  #doku_section h3 {
+    text-align: start;
+  }
+}
