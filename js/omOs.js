@@ -12,7 +12,7 @@ function start() {
     .addEventListener("click", () => klikPopup());
 }
 
-//Når der klikes vises der et popup vidnue.
+//Når der klikes vises der et popup vindue.
 function klikPopup() {
   console.log("klikPopup");
   const popup = document.querySelector("#popup");
