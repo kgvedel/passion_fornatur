@@ -10,7 +10,7 @@ function start() {
 
 // Open Menu
 function openMenu() {
-  //Her bliver der difineret conste varalber, så koden bliver mere læslig, men også nemmere at arbejde.
+  //Her bliver der defineret conste variabler, så koden bliver mere læslig, men også nemmere at arbejde.
   const burgerBtn = document.querySelector("#burger_btn");
   const menu = document.querySelector("#menu");
   //Her bliver der peget på alle storkes i #burger_btn, dette sker på grund af querySelectorAll.
