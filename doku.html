@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/doku.css" />
+    <!-- <link rel="stylesheet" href="css/burger.css" /> -->
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/bml8lza.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>forNature - sammen om naturen</title>
+    <meta name="title" content="forNature - sammen om naturen" />
+    <meta
+      name="description"
+      content="Alt hvad naturen indebærer; blomster, planter, dyr og landskaber er noget vi holder meget af og som vi gerne vil passe på."
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="asstes/graphic/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="asstes/graphic/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="asstes/graphic/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="asstes/graphic/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="asstes/graphic/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo"
+          ><img src="asstes/graphic/logo/logo.svg" alt="logo"
+        /></a>
+        <!-- Burgermenu der vises på mobil -->
+        <ul id="menu" class="hide">
+          <li><a href="galleri.html?kategori=alle" id="galleri">Galleri</a></li>
+          <li><a href="kort.html" id="kort">Kort</a></li>
+          <li><a href="om_os.html" id="om_os">Om os</a></li>
+        </ul>
+        <!-- Her er vores burgermenu knap, som består af 3 linjer, der kun vises på mobil -->
+        <div id="burger_btn">
+          <div class="stroke top"></div>
+          <div class="stroke center"></div>
+          <div class="stroke bottom"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="doku_section">
+        <h2>Vores dokumentation</h2>
+        <article class="section_wrapper">
+          <a class="link_knap" href="asstes/pdf/procsdoku.pdf"
+            >Procesdokumentation</a
+          >
+          <hr />
+          <ul>
+            <li><h3>Andre links</h3></li>
+            <li>
+              <a
+                class="link_knap"
+                href="https://xd.adobe.com/view/f4f0b361-2d90-4113-a41e-4d93881e81cb-a1a3/"
+                >Prototype mobil</a
+              >
+            </li>
+            <li>
+              <a
+                class="link_knap"
+                href="https://xd.adobe.com/view/aeaa23c0-0243-4d5a-ba4e-ffda41fa124f-fbf9/"
+                >Prototype desktop</a
+              >
+            </li>
+            <li>
+              <a class="link_knap" href="asstes/pdf/moodboard_styletile.pdf"
+                >Moodboard / Styletile</a
+              >
+            </li>
+            <li>
+              <a
+                class="link_knap"
+                href="https://trello.com/b/7winyZGk/f%C3%A6lles-passion"
+                >Trello board</a
+              >
+            </li>
+            <li>
+              <a class="link_knap" href="asstes/pdf/lighthouse_mobil_v1.pdf"
+                >Lighthouse mobil</a
+              >
+            </li>
+            <li>
+              <a class="link_knap" href="asstes/pdf/lighthouse_desktop_v1.pdf"
+                >Lighthouse desktop</a
+              >
+            </li>
+            <li>
+              <a
+                class="link_knap"
+                href="https://github.com/kgvedel/passion_fornature.git"
+                >GitHub mappen</a
+              >
+            </li>
+            <li>
+              <a
+                class="link_knap"
+                href="https://fervent-brown-1df542.netlify.app/index.html"
+                >Netlify</a
+              >
+            </li>
+            <!-- <li>
+              <a
+                class="link_knap"
+                href="assets/pdf/port_doku/portfolio_presentation.pdf"
+                >Præsentation</a
+              >
+            </li> -->
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <aside>
+      <section class="arrow_top">
+        <a href="#"><img src="asstes/graphic/icons/pil_3.svg" alt="pil" /></a>
+      </section>
+    </aside>
+
+    <footer>
+      <section>
+        <div class="adresse_footer">
+          <p>
+            <strong>Adresse:</strong><br />
+            Guldbergsgade 29N<br />
+            2200 København N
+          </p>
+          <br />
+        </div>
+
+        <div class="kontakt_footer">
+          <p><strong>Kontakt os:</strong></p>
+          <div class="telefon">
+            <img src="asstes/graphic/icons/telefon.svg" alt="telefon" />
+            <a href="tel:+4533333333">+45 33 33 33 33</a>
+          </div>
+          <div class="mail">
+            <img src="asstes/graphic/icons/mail.svg" alt="mail" />
+            <a href="mailto:kontakt@fornature.dk">kontakt@fornature.dk</a>
+          </div>
+        </div>
+
+        <div class="so_me_icon">
+          <a href="https://www.facebook.com/">
+            <img src="asstes/graphic/icons/facebook.svg" alt="Facebook logo"
+          /></a>
+          <a href="https://www.instagram.com/">
+            <img src="asstes/graphic/icons/insta.svg" alt="Facebook logo"
+          /></a>
+        </div>
+        <div class="logo_footer">
+          <img src="asstes/graphic/logo/logo.svg" alt="fornature logo" />
+        </div>
+      </section>
+    </footer>
+    <script src="js/burger.js"></script>
+  </body>
+</html>
